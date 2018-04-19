@@ -1,0 +1,116 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;  
+  font-weight: 600;
+}
+
+#nav {
+  background-color: #585858;
+  height: 125px;
+}
+
+.menu-item {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 100px;
+  line-height: 100px;
+  width: 140px;
+  color: #fff;
+  background-color:  #888;    
+  text-align: center;
+  font-size: 22px;
+}
+
+#bcontainer {
+  position: absolute;
+  top: 120px; 
+  height: 1000px;
+  width: 1122px;
+}
+
+#gtop {
+  position: absolute;
+  top: 10px;
+  left: 300px;
+  width: 550px;
+  height: 70px;
+  line-height: 50px;
+  overflow: hidden;
+  border: 1px solid black;
+  color: #fff;
+  background-color: #585858;
+  text-align: center;
+  font-size: 26px;
+}
+
+.art1 {
+  background-color: #787878;
+  height: 450px;
+  float: left;
+  width: 50%;  
+}
+
+.art2 {
+  background-color: #C0C0C0;
+  height: 450px;
+  float: left;
+  width: 50%;
+}
+
+.art3 {
+  background-color: #A9A9A9;
+  height: 450px;
+  float: left;
+  width: 50%;  
+}
+
+.art4 {
+  background-color:  #708090;
+  height: 450px;
+  float: left;
+  width: 50%;
+}
+
+.art5 {
+  background-color:  #fff;
+  height: 450px;
+  float: left;
+  width: 100%;
+}
+
+.art5 .blog-title {
+  background-color: #fff;
+  margin-left: 40px;
+  color: #000;
+  text-align: center;  
+}
+
+.author,
+.blog-title {
+  background-color: #585858;
+  margin-left: 40px;
+  color: #fff;
+}
+
+.author {
+  position: relative;
+  top: 200px;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.panel {
+    font-size: 1.2em;
+    max-width: 55vw;
+    margin: 1em auto 2em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
